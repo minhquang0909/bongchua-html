@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Liên hệ</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- slick-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<header>
+    <section class="mi-top-support">
+        <div class="container mi-top-support-content">
+            <img src="images/demo/top-baner.jpg" class="img-top-banner" alt="Top banner"/>
+        </div>
+    </section>
+    <section class="container">
+        <div class="mi-top-menu mi-top-menu-content">
+            <nav class="navbar navbar-expand-md">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link"> <i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                        <a href="lich-thi-dau.html" class="nav-item nav-link"><i class="fa fa-futbol-o" aria-hidden="true"></i>Lịch thi đấu</a>
+                        <a href="doan-chuyen-gia.html" class="nav-item nav-link"><i class="fa fa-users" aria-hidden="true"></i>Đoàn chuyên gia</a>
+                        <a href="goc-chien-thang.html" class="nav-item nav-link"><i class="fa fa-trophy" aria-hidden="true"></i>Góc chiến thắng</a>
+                        <a href="tai-app.html" class="nav-item nav-link"><i class="fa fa-download" aria-hidden="true"></i>Tải app</a>
+                        <a href="lien-he.html" class="nav-item nav-link active"><i class="fa fa-address-book" aria-hidden="true"></i>Liên hệ</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+</header>
+<section class="container">
+    <div class="mi-page-content mi-page-content-home">
+        <div class="mi-contact-page">
+            <!--ads-->
+            <div class="mi-ads mi-ads-single">
+                <a href="#" target="_blank"><img src="images/demo/ads-1.jpg" class="img-top-banner"/></a>
+            </div>
+            <!--end ads-->
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="text-big-bold uppercase">Liên hệ</h2>
+                    Quý khách có yêu cầu liên hệ vui lòng điền thông tin cá nhân và nội dung liên hệ. Chúng tôi nhận được thông tin của quý khách và liên hệ lại sớm nhất.
+                    </p>
+                    <p>
+                        Để tư vấn hỗ trợ nhanh nhất, Quý khách liên hệ trực tiếp qua số điện thoại : <b>0945.54.03.03</b> hoặc email : <b>quangcao@bongchua.vn</b>
+                    </p>
+                    <p>Trân trọng cảm ơn và hợp tác với quý khách!</p>
+                </div>
+                <div class="col-md-8">
+                    <form class="mi-contact-form" method="post">
+                        <div class="mi-contact-form-inner">
+                            <div class="form-group field-contact-name required has-error">
+                                <input type="name" required id="contact-name" class="form-control" name="name" placeholder="Họ và tên" aria-required="true" aria-invalid="true">
+                            </div>
+                            <div class="form-group field-contact-phone required">
+                                <input type="phone" required id="contact-phone" class="form-control" name="phone" placeholder="Số điện thoại" aria-required="true">
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="form-group field-contact-email">
+                                <input type="email" id="contact-email" class="form-control" name="email" placeholder="Email">
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="form-group field-contact-content required">
+                                <textarea required id="contact-content" class="form-control" name="content" rows="6" placeholder="Nội dung" aria-required="true"></textarea>
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="btn-submmit-wrapper">
+                                    <button type="submit" class="btn btn-success text-bold" name="contact-button">Gửi liên hệ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--ads-->
+            <div class="mi-ads mi-ads-single">
+                <a href="#" target="_blank"><img src="images/demo/ads-1.jpg" class="img-top-banner"/></a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <section class="container">
+        <div class="mi-footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="logo-link">
+                        <img src="images/logo.png" class="logo-img"/>
+                    </a>
+                    <div class="logo-slogan">
+                        <div class="mi-btitle uppercase">Bóng chúa</div>
+                        <p class="mi-title">Bóng là chúa - Ăn kèo là tất cả</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mi-htitle">Thông tin liên hệ:</div>
+                    <div class="mi-desc-gray">
+                        <div>Địa chỉ tòa soạn: Nhà 48, ngõ 2 Giảng Võ, Cát Linh, Đống Đa, Hà Nội</div>
+                        <div>Điện thoại: 024-3736-6491. Fax: 024-3736-6491</div>
+                        <div>Hotline HN: 0973-567-567. Hotline TP HCM: 0974-567-567</div>
+                        <div>Email: info@dantri.com.vn</div>
+                    </div>
+                    <div class="mi-htitle">Liên hệ quảng cáo:</div>
+                    <div class="mi-desc-gray">
+                        <div>0945.54.03.03   -   Email: quangcao@dantri.com.vn</div>
+                    </div>
+                    <a class="btn btn-go-to-top" #><i class="fa fa-arrow-up"></i>Về đầu trang</a>
+                </div>
+                <div class="col-md-2">
+                    <div class="mi-htitle">Tải app</div>
+                    <div class="mi-app-link-list">
+                        <a href="#" target="_blank"><img src="images/googleplay.png"/></a>
+                        <a href="#" target="_blank"><img src="images/appstore.png"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+</body>
+</html>
